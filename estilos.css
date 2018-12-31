@@ -4,7 +4,6 @@ body{
 }
 header{
   background: #0984e3;
-  height: 100px;
   width: 100%;
 }
 #contenedor-central{
@@ -20,7 +19,6 @@ header{
 section{
   background-color: white;
   width: 70%;
-  height: 500px;
   float: left;
   border-radius: 10px;
 }
@@ -28,19 +26,24 @@ aside{
   padding: 0 15px 0 15px;
   background-color: transparent;
   width: 30%;
-  height: 500px;
   float: right;
   box-sizing: border-box;
 }
 .contenedor-widgets{
-  height: 500px;
   background: #eaecee;
   border-radius: 10px;
   width: 100%;
 }
 footer{
-  height: 200px;
   background-color: #eaecee;
   clear: both;
   margin: 0px;
+}
+/* Blogger Issues */
+.post-body.entry-content img {
+  max-width: 100%;
+  margin: 0 -1em;
+}
+#main{
+  margin: 40px;
 }
