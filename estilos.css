@@ -49,3 +49,12 @@ footer{
 #main{
   margin: 40px;
 }
+.widget .title::before {
+  content: "<";
+}
+.widget .title::after {
+  content: "/>";
+}
+.widget .title {
+  margin: 0px 0px 10px 0px;
+}
