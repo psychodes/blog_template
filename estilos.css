@@ -21,6 +21,8 @@ section{
   width: 70%;
   float: left;
   border-radius: 10px;
+  border: 1px solid lavender;
+  box-sizing: border-box;
 }
 aside{
   padding: 0 15px 0 15px;
