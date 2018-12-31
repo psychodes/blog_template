@@ -6,6 +6,10 @@ header{
   background: #0984e3;
   width: 100%;
 }
+header img{
+  max-width: 100%;
+  height: auto;
+}
 #contenedor-central{
   overflow: auto;
   background-color: transparent;
@@ -48,6 +52,9 @@ footer{
   max-width: 100%;
   margin: 0 -1em;
 }
+.post-body .entry-content p{
+  font: 18px Raleway;
+}
 #main{
   margin: 40px;
 }
@@ -59,4 +66,9 @@ footer{
 }
 .widget .title {
   margin: 0px 0px 10px 0px;
+}
+/* Imports */
+@font-face {
+  font-family: Raleway;
+  src: url('https://fonts.googleapis.com/css?family=Raleway);
 }
