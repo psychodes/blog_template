@@ -51,14 +51,14 @@ footer{
   margin: 0px;
 }
 /* Blogger Issues */
+.post-body .entry-content {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: #7C7C7C;
+}
 .post-body.entry-content img {
   max-width: 100%;
   margin: 0 -1em;
-}
-.post-body .entry-content p{
-  font-family: 'Raleway';
-  font-size: 18px;
-  color: #333;
 }
 #main{
   margin: 40px;
