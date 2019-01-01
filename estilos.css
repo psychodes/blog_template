@@ -51,10 +51,10 @@ footer{
   margin: 0px;
 }
 /* Blogger Issues */
-.post-body .entry-content {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  color: #7C7C7C;
+.post-body.entry-content div{
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 18px !important;
+  color: #7C7C7C !important;
 }
 .post-body.entry-content img {
   max-width: 100%;
@@ -63,13 +63,13 @@ footer{
 #main{
   margin: 40px;
 }
-.widget .title::before {
+.widget h2::before {
   content: "<";
 }
-.widget .title::after {
+.widget h2::after {
   content: "/>";
 }
-.widget .title {
+.widget h2{
   margin: 0px 0px 10px 0px;
   text-align: center;
   text-transform: uppercase;
