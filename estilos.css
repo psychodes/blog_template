@@ -51,7 +51,7 @@ footer{
   margin: 0px;
 }
 /* Blogger Issues */
-.post-body .entry-content {
+.post-body.entry-content {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   color: #7C7C7C;
